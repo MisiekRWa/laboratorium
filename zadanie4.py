@@ -11,3 +11,11 @@ for element in long_list:
         break
 koniec = time.time() - start
 print ("Pierwsze : " + str(koniec))
+
+#2
+start2 = time.time()
+i=0
+if -1 in long_list:print("jest")
+else: print("nie ma")
+koniec2 = time.time() - start2
+print ("Drugie : " + str(koniec2))
