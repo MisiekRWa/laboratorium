@@ -1,4 +1,8 @@
 haslo = "jezykiskryptowe"
 proby = 10
-licznik = 0
 podaj_haslo = ''
+
+while podaj_haslo != haslo:
+    print ("Ilość prób: " + str(proby))
+    proby -=1
+    podaj_haslo = input('Podaj haslo: ')
