@@ -1,7 +1,5 @@
 tab1 = ['Damian', 'Ola', 'Barbara', 'Robert', 'Zygmunt', 'Ewa']
 tab2 = []
 
-for imie in tab1:
-    tab2.append(imie[0])
+tab2 = [imie[0] for imie in tab1 ]
 print(tab2)
-
