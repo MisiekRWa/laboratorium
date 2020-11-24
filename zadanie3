@@ -6,3 +6,11 @@ while podaj_haslo != haslo:
     print ("Ilość prób: " + str(proby))
     proby -=1
     podaj_haslo = input('Podaj haslo: ')
+    if proby == 0:
+        print("Niestety nie udało się odgadnąć hasła")
+        break
+    elif podaj_haslo == haslo:
+        print("Gratulacje poprawne haslo")
+        break
+    else:
+        print('Haslo nieprawidlowe')
