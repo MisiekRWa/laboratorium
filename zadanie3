@@ -1,8 +1,0 @@
-slowo = 'skryptowe'
-for i in range(10):
-    zgadnij = input("Zgadnij slowo: ")
-    if zgadnij == slowo:
-        print("Odpowiedz prawidlowa.")
-        break
-else:
-    print("Niestety nie udało ci się odgadnąć słowa: " + slowo)
