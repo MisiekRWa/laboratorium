@@ -1,4 +1,4 @@
-import re
+import re #modul odpowiadajacy za wyrazenia regularne
 bridge_of_death = '''
 -Jaki jest twój ulubiony kolor?
 -Niebieski!
@@ -10,3 +10,9 @@ bridge_of_death = '''
 -Odnaleźć Graala.
 -Jaki jest twój ulubiony kolor?
 -Niebieski... nie... żóóóółtyyyy!
+'''
+
+pattern_1 = re.compile(r'[a-zA-Z]{4,}')
+result = pattern_1.findall(bridge_of_death)
+for x in result:
+    print(x)
