@@ -12,7 +12,7 @@ bridge_of_death = '''
 -Niebieski... nie... żóóóółtyyyy!
 '''
 
-pattern_1 = re.compile(r'[a-zA-Z]{4,}')
+pattern_1 = re.compile(r'[a-zA-ZąćęłńóśźżĄĘŁŃÓŚŹŻ]{4,}')
 result = pattern_1.findall(bridge_of_death)
 for x in result:
     print(x)
