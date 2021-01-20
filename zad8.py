@@ -1,7 +1,5 @@
-try:
-    with open("jeden.txt", 'r') as plik1:
-        with open("dwa.txt", 'w') as plik2:
-            for linia in plik1:
-                plik2.write(linia)
-except IOError as ioe:
-    print("Blad! {}".format(ioe))
+odczyt = open('plik.txt', 'w')
+odczyt.write('Jezyki Skryptowe ABCDEFGHqrwoijfsan')
+odczyt = open('plik.txt', 'r')
+print(txt_file.read())
+odczyt.close()
