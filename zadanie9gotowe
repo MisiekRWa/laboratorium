@@ -1,0 +1,8 @@
+try:
+    with open("jeden.txt", 'r') as text1:
+        with open("dwa.txt", 'w') as text2:
+            for lines in text1:
+                text2.write(lines)
+except IOError as ioe:
+    print("Wystapil blad! {}".format(ioe))
+
