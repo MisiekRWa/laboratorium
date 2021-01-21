@@ -1,5 +1,0 @@
-odczyt = open('plik.txt', 'w')
-odczyt.write('Jezyki Skryptowe ABCDEFGHqrwoijfsan')
-odczyt = open('plik.txt', 'r')
-print(txt_file.read())
-odczyt.close()
